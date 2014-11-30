@@ -1,0 +1,205 @@
+.header{
+    background-color:#00b326;
+    width:100%;
+    padding-top:0px;
+    padding-right:0px;
+    padding-left:0px;
+    margin-top:0px;
+    margin:0%;
+    height:177px;
+}
+
+a{
+    color:white
+}
+
+.header_image{
+    width:100%;
+}
+
+.buttons{
+    width:100%;
+    background-color:white;
+}
+
+body{
+    background-color: white;
+    text-decoration:none;
+    font-size:24pt;
+}
+
+a:hover{
+    color:white;
+    background-color:darkgreen;
+}
+
+.footer{
+    background-color:#00b326;
+    width:100%;
+    height:100px;
+}
+
+.stat_1{
+    width:100%;
+    height:10px;
+}
+
+.stat_2{
+    width:100%;
+    height: 10px;
+}
+
+html{
+    height:100%;
+}
+
+.stat_3{
+    width:100%;
+    height: 10px;
+}
+
+nav{
+    background-color:#00b326;
+    padding-left:1000px;
+}
+
+* {
+    margin:0;
+    padding:0;
+}
+
+/* Eric Meyer's CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+.nav{
+    padding-left:350px;
+    height:102px;
+    font-size:30pt;
+}
+
+.logo{
+   margin-top:-100px;
+   padding-left:25px;
+   padding-top:10px;
+}
+
+nav{
+    padding-top:93px;
+    padding-left:93px;
+}
+
+#index_first_item{
+    padding-top:350px;
+    padding-left:50px;
+}
+
+#index_second_item{
+    padding-top:350px;
+    padding-left:100px;
+}
+
+#index_third_item{
+    padding-top:350px;
+    padding-left:100px;
+}
+
+#index_four_item{
+    padding-top:350px;
+    padding-left:100px;
+}
+
+.three_items{
+    margin:50px;
+    padding:7px;
+}
+
+/*.button_1{
+    padding:50%;
+    padding-top:150px;
+}*/
+
+.stats{
+    padding-left:10%;
+}
+
+.button_1{
+    padding-left:38%;
+}
+
+/*.button_2{
+    padding-left:10%;
+}*/
+
+.stats_button_1{
+  padding-left:17%;
+}
+
+.stats_button_3{
+    padding-left:17%;
+}
+
+.stats_button_2{
+    padding-left:17%;
+}
+
+h3{
+    color:#00b326;
+    font-size:50pt;
+}
+
+.footer{
+    background-color:#00b326;
+    color:white;
+    height:200px;
+}
+
+.footer_nav{
+    padding-left:100px;
+    /*padding-top:-1900px;*/
+}
+
+.cosial_seti{
+    padding-left:50px;
+}
+
+#h3_1{
+    padding-left:0%;
+    padding-right:50%;
+}
+
+#h3_2{
+    padding-left:0%;
+    padding-right:50%;
+}
+
+.h3_big{
+    padding-left:20%;
+}
+
+.copyright{
+    padding-left:10px;
+}
+
+.item{
+    float:left;
+    width:33%;
+    /*Тут тип напиши бордер*/;
+}
+
