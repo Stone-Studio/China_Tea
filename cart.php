@@ -38,7 +38,7 @@
     if ($_REQUEST['clear'] == 'y') {
         $_SESSION['BUSKET'] = Array();
     }
-
+//Очистка корзины
     ?>
 
     <? if (count($_SESSION['BUSKET']) < 1): ?>
@@ -70,8 +70,9 @@
                         <td class="cart_td"><?= $arResult['count'] ?></td>
                         <td class="cart_td"><?= $arResult['cost'] * $arResult['count'] ?></td>
                     </tr>
-
-                <? endforeach; ?>
+                <? endforeach;
+                //Генерация таблицы корзины
+                ?>
             </table>
             <br/>
 
@@ -86,4 +87,5 @@
     <br/>
 
     <? include_once('./pages/footer.php');
+//Футер
     ?>

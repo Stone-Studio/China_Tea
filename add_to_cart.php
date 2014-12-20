@@ -37,6 +37,7 @@
         $_SESSION['BUSKET'][$id]['id'] = $id;
         $_SESSION['BUSKET'][$id]['cost'] = $_GET['cost'];
         $_SESSION['BUSKET'][$id]['name'] = $_GET['name'];
+//Задаем значения массивам
 
         if ($_SESSION['BUSKET'][$_GET['id']]) {
             $count = $_SESSION['BUSKET'][$_GET['id']]['count'];
@@ -45,8 +46,10 @@
         else {
             $_SESSION['BUSKET'][$_GET['id']]['count'] = 1;
         }
+        //Изменяем кол-во товаров
     }
 
     echo 'Товар был успешно добавлен!';
     echo '<br />';
     echo 'Идентификатор товара:' . $id . '.';
+//Оповещаем об успешном добавлении

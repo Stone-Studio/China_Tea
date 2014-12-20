@@ -36,6 +36,7 @@
     $query = "SELECT * FROM is_items";
 
     $result = mysqli_query($dbc, $query) or die (':C:' . mysqli_error($dbc));
+//Подготовка к работе
 
     ?>
     <p>Просмотреть товары по категориям:</p>
@@ -45,6 +46,7 @@
     <br />
 
     <?
+//Категории
     echo '<br />';
 
     session_start();
@@ -74,4 +76,5 @@
         echo '</div>';
         echo '</div>';
         echo '<br />';
+        //Генерируем
 }
