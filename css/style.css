@@ -89,7 +89,7 @@ time, mark, audio, video {
 }
 
 .nav{
-    padding-left:350px;
+    padding-left:400px;
     height:102px;
     font-size:30pt;
 }
@@ -130,11 +130,6 @@ nav{
     padding:7px;
 }
 
-/*.button_1{
-    padding:50%;
-    padding-top:150px;
-}*/
-
 .stats{
     padding-left:10%;
 }
@@ -142,10 +137,6 @@ nav{
 .button_1{
     padding-left:38%;
 }
-
-/*.button_2{
-    padding-left:10%;
-}*/
 
 .stats_button_1{
   padding-left:17%;
@@ -172,7 +163,6 @@ h3{
 
 .footer_nav{
     padding-left:100px;
-    /*padding-top:-1900px;*/
 }
 
 .cosial_seti{
@@ -203,3 +193,174 @@ h3{
     /*Тут тип напиши бордер*/;
 }
 
+.shop_item{
+    width: 33%;
+    float: left;
+}
+
+.item_border{
+    border: 4px solid #00b326;
+    width: 220px;
+}
+
+.items{
+    padding-left:150px;
+}
+
+.nalichie{
+    color: green;
+    font-size:20pt;
+    padding-left:38px;
+}
+
+.item_content_central{
+    padding-left:9px;
+}
+
+.cena_item{
+    padding-left:45px;
+}
+
+.head_table_cart{
+    background-color: #00b326;
+    color:white;
+    padding: 6px 8px 8px 8px;
+}
+
+.table_cart{
+    padding-left: 340px;
+    font-size: 42pt;
+}
+
+.cart_td{
+    border: 1px solid #00b326;
+    padding: 6px 8px 8px 8px;
+}
+
+.tr_cart{
+    background-color: white;
+}
+
+.tr_cart:hover{
+    background-color: #00b326;
+    color: white;
+}
+
+.h_cart{
+    padding-left:280px;
+}
+
+.buy_cart_final{
+    padding-left: 280px;
+}
+
+.FIO, .addres, .phone, .email, .primech, .addres, .but_send_buy, .oplata, .dostavka{
+    color: black;
+    font-size: 26pt;
+}
+
+.form_buy{
+    padding-left:400px;
+
+}
+
+.form_buy_border{
+    width: 850px;
+    padding: 6px 8px 8px 8px;
+}
+
+.but_send_buy{
+    padding-left: 0px;
+    background-color: #00b326;
+    color: white;
+}
+
+.form_buy_pad{
+    padding-left: 100px;
+}
+
+.zaverch_zakaz{
+    padding-left: 70px;
+}
+
+#gl_im{
+    padding-left:15%;
+}
+
+#dos_id{
+    float: left;
+    padding-left:15px;
+}
+
+#dostavka{
+    padding-right: 60px;
+    padding-left: 45%;
+}
+
+#h_dost{
+    padding-left: 10%;
+}
+
+#kontakts_h{
+   padding-left: 0%;
+}
+
+#kontakts_img{
+    float: left;
+    padding-left: 15px;
+
+}
+
+#kontakts_text{
+    padding-left: 560px;
+}
+
+#kontakts_k{
+    padding-left: 40%;
+    font-size: 32pt;
+}
+
+#weare_h{
+    padding-left: 40%;
+}
+
+#weare_img{
+    float: left;
+    padding-left: 30px;
+}
+
+#weare_p{
+    padding-right: 50px;
+    padding-left: 700px;
+}
+
+.weare_item{
+    width: 33%;
+    float: left;
+}
+
+.weare_border{
+    width: 220px;
+}
+
+#text_weare{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#weare_1{
+    padding-left: 50px;
+}
+
+#clear_cart{
+    color: #00b326;
+}
+
+#katalog_tovarov{
+    color: #00b326;
+}
+
+.a_sort{
+    color: #000000;
+    /*color: #00b326;*/
+}
