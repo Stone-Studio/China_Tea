@@ -26,6 +26,8 @@
  * @version 0.2
  * @state Alpha
  *
+ * @GitHub: https://github.com/Stone-Studio/China_Tea
+ *
  */
 
     include_once('pages/head.php');
